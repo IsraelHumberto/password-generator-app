@@ -1,10 +1,13 @@
+import InputRange from 'components/InputRange';
 import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      Hello world
-    </div>
+    <InputRange
+      min={0}
+      max={20}
+      title='Character Length'
+    />
   );
 }
 

@@ -1,0 +1,50 @@
+@import 'styles/variables.scss';
+
+.inputRange {
+    width: 100%;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        color: $white;
+    }
+
+    &__length {
+        font-size: 32px;
+        color: $green;
+    }
+
+    &__input {
+        margin-top: 1rem;
+        
+        input[type=range] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            cursor: pointer;
+            outline: none;
+            height: 10px;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            height: 28px;
+            width: 28px;
+            background-color: $white;
+            border-radius: 50%;
+            border: 2px solid $white;
+            transition: all 200ms ease;
+          }
+        input[type="range"]::-webkit-slider-thumb:hover {
+            background-color: $black;
+            border: 2px solid $green;
+            transition: all 200ms ease;
+          }
+        
+
+    }
+}
