@@ -1,0 +1,27 @@
+@import 'styles/_variables.scss';
+
+.btn {
+    padding: 20px;
+    width: 100%;
+    background-color: $green;
+    border: 2px solid $green;
+    text-transform: uppercase;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    transition: $transition;
+    cursor: pointer;
+    font-size: 18px;
+
+    &:hover {
+        background-color: transparent;
+        color: $green;
+        transition: $transition;
+
+        path {
+            fill: $green;
+            transition: $transition;
+        }
+    }
+}

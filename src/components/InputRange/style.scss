@@ -1,4 +1,4 @@
-@import 'styles/variables.scss';
+@import 'styles/_variables.scss';
 
 .inputRange {
     width: 100%;
@@ -37,12 +37,12 @@
             background-color: $white;
             border-radius: 50%;
             border: 2px solid $white;
-            transition: all 200ms ease;
+            transition: $transition;
           }
         input[type="range"]::-webkit-slider-thumb:hover {
             background-color: $black;
             border: 2px solid $green;
-            transition: all 200ms ease;
+            transition: $transition;
           }
         
 

@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import './_variables.scss';
 
 * {
     box-sizing: border-box;
@@ -35,6 +35,10 @@
       font-family: 'JetBrains Mono', monospace;
       font-size: 18px;
       background-color: $darkGray;
+
+      //tirar depois
+      width: 500px;
+      margin: 0 auto;
   }
   h1 {
     font-size: 32px;

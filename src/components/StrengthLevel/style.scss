@@ -1,4 +1,4 @@
-@import 'styles/variables.scss';
+@import 'styles/_variables.scss';
 
 .strengthLevel {
     display: flex;
@@ -6,7 +6,6 @@
     background-color: $black;
     align-items: center;
     padding: 20px 32px;
-    margin: 32px 0;
 
     &__title {
         color: $gray;
