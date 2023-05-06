@@ -1,0 +1,20 @@
+@import 'styles/_variables.scss';
+
+.container {
+    width: 540px;
+
+    header {
+        padding: 18px 32px;
+        background-color: $darkGray;
+        margin-bottom: 24px;
+    }
+
+    main {
+        padding: 24px 32px;
+        background-color: $darkGray;
+
+        .inputRange, .strengthLevel {
+            margin-bottom: 24px;
+        }
+    }
+}
